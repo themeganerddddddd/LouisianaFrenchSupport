@@ -6,23 +6,21 @@
   <title>Louisiana French App Support</title>
   <style>
     :root {
-      --bg: #f7f4ed;
+      --bg: #f8f6f0;
       --card: #ffffff;
       --text: #1f2937;
       --muted: #6b7280;
       --accent: #1d4ed8;
-      --accent-dark: #153eaa;
+      --accent-dark: #1e40af;
       --border: #e5e7eb;
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(180deg, #f7f4ed 0%, #eef4ff 100%);
+      background: linear-gradient(180deg, #f8f6f0 0%, #eef4ff 100%);
       color: var(--text);
       line-height: 1.6;
     }
@@ -35,16 +33,16 @@
 
     .hero {
       text-align: center;
-      margin-bottom: 40px;
+      margin-bottom: 36px;
     }
 
     .hero h1 {
-      font-size: 2.5rem;
-      margin-bottom: 12px;
+      margin: 0 0 12px;
+      font-size: 2.4rem;
     }
 
     .hero p {
-      max-width: 700px;
+      max-width: 720px;
       margin: 0 auto;
       color: var(--muted);
       font-size: 1.05rem;
@@ -55,13 +53,13 @@
       border: 1px solid var(--border);
       border-radius: 18px;
       padding: 28px;
-      margin-bottom: 24px;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+      margin-bottom: 22px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
     }
 
     h2 {
       margin-top: 0;
-      font-size: 1.4rem;
+      font-size: 1.35rem;
     }
 
     a {
@@ -74,26 +72,15 @@
       text-decoration: underline;
     }
 
-    ul {
-      padding-left: 20px;
-    }
-
-    .footer {
-      text-align: center;
-      color: var(--muted);
-      font-size: 0.95rem;
-      margin-top: 24px;
-    }
-
     .button {
       display: inline-block;
-      background: var(--accent);
-      color: white;
+      margin-top: 12px;
       padding: 12px 18px;
+      background: var(--accent);
+      color: #fff;
       border-radius: 10px;
       font-weight: bold;
       text-decoration: none;
-      margin-top: 10px;
     }
 
     .button:hover {
@@ -101,19 +88,20 @@
       text-decoration: none;
     }
 
-    .small {
+    ul {
+      padding-left: 20px;
+    }
+
+    .footer {
+      margin-top: 30px;
+      text-align: center;
       color: var(--muted);
       font-size: 0.95rem;
     }
 
     @media (max-width: 640px) {
-      .hero h1 {
-        font-size: 2rem;
-      }
-
-      .card {
-        padding: 22px;
-      }
+      .hero h1 { font-size: 2rem; }
+      .card { padding: 22px; }
     }
   </style>
 </head>
@@ -122,41 +110,51 @@
     <section class="hero">
       <h1>Louisiana French App Support</h1>
       <p>
-        Welcome to the support page for the Louisiana French app. If you are experiencing
-        issues, have questions, or want to share feedback, you can find help below.
+        Welcome to the support page for the Louisiana French app. If you need help,
+        want to report an issue, or have a question about the app, please use the
+        contact information below.
       </p>
     </section>
 
     <section class="card">
       <h2>Contact Support</h2>
       <p>
-        For help with the app, bug reports, account questions, or general support, please contact:
+        For support, bug reports, or questions about the app, please contact:
       </p>
       <p>
         <strong>Email:</strong>
         <a href="mailto:weststurhan@gmail.com">weststurhan@gmail.com</a>
       </p>
+      <a class="button" href="mailto:YOUR_EMAIL_HERE">Email Support</a>
+    </section>
 
-      <a class="button" href="mailto:weststurhan@gmail.com">Email Support</a>
+    <section class="card">
+      <h2>Privacy</h2>
+      <p>
+        The Louisiana French app does not collect, store, or share personal data.
+        It does not use third-party analytics, advertising SDKs, or tracking tools.
+      </p>
+      <p>
+        You can read the full privacy policy here:
+        <a href="privacy.html">Privacy Policy</a>
+      </p>
     </section>
 
     <section class="card">
       <h2>Frequently Asked Questions</h2>
       <ul>
-        <li><strong>The app is not loading properly.</strong> Try closing and reopening the app, then make sure you are using the latest version.</li>
-        <li><strong>Audio is not playing.</strong> Check that your device volume is on and that silent mode is not blocking playback.</li>
-        <li><strong>Progress seems missing.</strong> Try logging out and back in, or reinstall the app if the issue continues.</li>
-        <li><strong>I found a mistake in a word or lesson.</strong> Please email support with the lesson name and the correction.</li>
+        <li><strong>The app is not loading properly.</strong> Close and reopen the app, then make sure you are using the latest version.</li>
+        <li><strong>Audio is not playing.</strong> Check your device volume and make sure silent mode is not preventing playback.</li>
+        <li><strong>I found an error in a lesson or word.</strong> Please email support with the lesson name and the correction.</li>
+        <li><strong>The app is not responding correctly.</strong> Try restarting the app or reinstalling it.</li>
       </ul>
     </section>
-
-
 
     <section class="card">
       <h2>About the App</h2>
       <p>
-        The Louisiana French app is designed to help users learn and engage with Louisiana French
-        through vocabulary, lessons, and interactive study tools.
+        Louisiana French is an educational language-learning app designed to help users
+        explore vocabulary and learning tools related to Louisiana French.
       </p>
     </section>
 
